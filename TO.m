@@ -6,8 +6,8 @@ classdef TO < handle
         BCHD = {};% Boundary cases
         FC = {}
         FCHD = {}% Force cases
-        Fmagx =  round(cos(0:pi/6:pi/2),4);
-        Fmagy =  round(sin(0:pi/6:pi/2),4);
+        Fmagx =  round(cos(0:pi/6:pi),4);
+        Fmagy =  round(sin(0:pi/6:pi),4);
         Fdir = [-1 1];
         Fnodes = NaN; 
         res = [];
